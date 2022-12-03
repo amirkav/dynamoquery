@@ -36,7 +36,7 @@ You can find commented usage examples in [examples](https://github.com/altituden
 ```python
 import boto3
 
-from dynamo_query import DynamoQuery, DataTable
+from dynamoquery import DynamoQuery, DataTable
 
 table_resource = boto3.resource("dynamodb").Table('people')
 query = DynamoQuery.build_scan(
@@ -77,7 +77,7 @@ for record in result_data_table.get_records():
 
 ```python
 from typing import Optional
-from dynamo_query import DynamoTable, DynamoDictClass
+from dynamoquery import DynamoTable, DynamoDictClass
 
 # first, define your record
 class UserRecord(DynamoDictClass):
@@ -138,7 +138,7 @@ Run unit tests and linting.
 Add false-positive unused entities to `vulture` whitelist
 
 ```bash
-vulture dynamo_query --make-whitelist > vulture_whitelist.txt
+vulture dynamoquery --make-whitelist > vulture_whitelist.txt
 ```
 
 ### VSCode
@@ -163,4 +163,4 @@ Recommended `.vscode/settings.json`
 
 ## Versioning
 
-`dynamo_query` version follows [Semantic Versioning](https://semver.org/).
+`dynamoquery` version follows [Semantic Versioning](https://semver.org/).
