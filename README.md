@@ -2,7 +2,7 @@
 
 [![PyPI - dynamoquery](https://img.shields.io/pypi/v/dynamoquery.svg?color=blue&label=dynamoquery)](https://pypi.org/project/dynamoquery)
 [![PyPI - Python Version](https://img.shields.io/pypi/pyversions/dynamoquery.svg?color=blue)](https://pypi.org/project/dynamoquery)
-[![Coverage](https://img.shields.io/codecov/c/github/altitudenetworks/dynamoquery)](https://codecov.io/gh/altitudenetworks/dynamoquery)
+[![Coverage](https://img.shields.io/codecov/c/github/amirkav/dynamoquery)](https://codecov.io/gh/amirkav/dynamoquery)
 
 Helper for building Boto3 DynamoDB queries.
 
@@ -24,14 +24,14 @@ python -m pip install dynamoquery
 
 ## Usage
 
-You can find commented usage examples in [examples](https://github.com/altitudenetworks/dynamoquery/tree/master/examples) directory.
+You can find commented usage examples in [examples](https://github.com/amirkav/dynamoquery/tree/master/examples) directory.
 
 ### DynamoQuery
 
 ```python
 import boto3
 
-from dynamo_query import DynamoQuery, DataTable
+from dynamoquery import DynamoQuery, DataTable
 
 table_resource = boto3.resource("dynamodb").Table('people')
 query = DynamoQuery.build_scan(
@@ -72,7 +72,7 @@ for record in result_data_table.get_records():
 
 ```python
 from typing import Optional
-from dynamo_query import DynamoTable, DynamoDictClass
+from dynamoquery import DynamoTable, DynamoDictClass
 
 # first, define your record
 class UserRecord(DynamoDictClass):
@@ -135,7 +135,7 @@ Run unit tests and linting.
 Add false-positive unused entities to `vulture` whitelist
 
 ```bash
-vulture dynamo_query --make-whitelist > vulture_whitelist.txt
+vulture dynamoquery --make-whitelist > vulture_whitelist.txt
 ```
 
 ### VSCode
@@ -160,4 +160,4 @@ Recommended `.vscode/settings.json`
 
 ## Versioning
 
-`dynamo_query` version follows [Semantic Versioning](https://semver.org/).
+`dynamoquery` version follows [Semantic Versioning](https://semver.org/).

@@ -1,4 +1,5 @@
 # Changelog
+
 All notable changes to this project are documented on [Releases](https://github.com/altitudenetworks/dynamoquery/releases) page.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
@@ -92,7 +93,7 @@ and this project adheres to
 
 ### Changed
 
-- `DynamoTable`  no longer has default provision throughput specified [#41](https://github.com/altitudenetworks/dynamoquery/pull/41)
+- `DynamoTable` no longer has default provision throughput specified [#41](https://github.com/altitudenetworks/dynamoquery/pull/41)
 - `DynamoTable.batch_upsert_record` no longer works as a generator
 - `DynamoTable.batch_delete_record` no longer works as a generator [#42](https://github.com/altitudenetworks/dynamoquery/pull/42)
 
@@ -115,6 +116,7 @@ and this project adheres to
 ### Notes
 
 Important info:
+
 - release notes are managed automatically
 - do not add new sections, but all sections can be edited, including this one
 - always edit release notes before publishing
@@ -156,7 +158,7 @@ Important info:
 - `DynamoTable.batch_get_records` that works with iterators
 - `DynamoTable.batch_upsert_records` that works with iterators
 - `DynamoTable.batch_delete_records` that works with iterators
-- `DynamoTable.dynamo_query_class` attribute that allows to use custom `DynamoQuery`
+- `DynamoTable.dynamoquery_class` attribute that allows to use custom `DynamoQuery`
 - `DynamoTable.max_batch_size` property for easier subclassing [#28](https://github.com/altitudenetworks/dynamoquery/pull/28)
 - `DynamoRecord` UserDict class for class-based
 - `record_type` argument to `DataClass` init that accepts any `UserDict`-based classes
