@@ -5,7 +5,7 @@ on:
     branches:
       - main
     paths:
-      - dynamo_query/**
+      - dynamoquery/**
       - tests/**
 
 jobs:
@@ -26,5 +26,5 @@ jobs:
         env:
           CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
         run: |
-          pytest --cov-report=xml --cov=dynamo_query -m "not integration"
+          pytest --cov-report=xml --cov=dynamoquery -m "not integration"
           codecov

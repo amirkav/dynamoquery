@@ -98,7 +98,7 @@ jobs:
         id: type
         run: |
           # github-actions-managed: true
-          command -v mypy && mypy dynamo_query
+          command -v mypy && mypy dynamoquery
           if test -f "pyrightconfig.json"; then
             echo "pyrightconfig.json found"
             npm i pyright --no-save
