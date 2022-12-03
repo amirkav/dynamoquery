@@ -1,19 +1,19 @@
 # DynamoTableIndex
 
-> Auto-generated documentation for [dynamo_query.dynamo_table_index](https://github.com/altitudenetworks/dynamoquery/blob/master/dynamo_query/dynamo_table_index.py) module.
+> Auto-generated documentation for [dynamoquery.dynamo_table_index](https://github.com/altitudenetworks/dynamoquery/blob/master/dynamoquery/dynamo_table_index.py) module.
 
 - [dynamo-query](../README.md#dynamoquery) / [Modules](../MODULES.md#dynamo-query-modules) / [Dynamo Query](index.md#dynamo-query) / DynamoTableIndex
-    - [DynamoTableIndex](#dynamotableindex)
-        - [DynamoTableIndex().as_attribute_definitions](#dynamotableindexas_attribute_definitions)
-        - [DynamoTableIndex().as_global_secondary_index](#dynamotableindexas_global_secondary_index)
-        - [DynamoTableIndex().as_key_schema](#dynamotableindexas_key_schema)
-        - [DynamoTableIndex().as_local_secondary_index](#dynamotableindexas_local_secondary_index)
-        - [DynamoTableIndex().get_query_data](#dynamotableindexget_query_data)
-        - [DynamoTableIndex().name](#dynamotableindexname)
+  - [DynamoTableIndex](#dynamotableindex)
+    - [DynamoTableIndex().as_attribute_definitions](#dynamotableindexas_attribute_definitions)
+    - [DynamoTableIndex().as_global_secondary_index](#dynamotableindexas_global_secondary_index)
+    - [DynamoTableIndex().as_key_schema](#dynamotableindexas_key_schema)
+    - [DynamoTableIndex().as_local_secondary_index](#dynamotableindexas_local_secondary_index)
+    - [DynamoTableIndex().get_query_data](#dynamotableindexget_query_data)
+    - [DynamoTableIndex().name](#dynamotableindexname)
 
 ## DynamoTableIndex
 
-[[find in source code]](https://github.com/altitudenetworks/dynamoquery/blob/master/dynamo_query/dynamo_table_index.py#L14)
+[[find in source code]](https://github.com/altitudenetworks/dynamoquery/blob/master/dynamoquery/dynamo_table_index.py#L14)
 
 ```python
 class DynamoTableIndex():
@@ -44,7 +44,7 @@ Constructor for DynamoDB global and local secondary index structures.
 
 Usage:
 
-```python
+````python
 table_index = DynamoTableIndex("lsi_my_attr", "my_attr")
 table_index.as_dynamodb_dict()
 # {
@@ -63,19 +63,19 @@ table_index.as_dynamodb_dict()
 
 #### See also
 
-- [ScalarAttributeTypeType](dynamo_query_types.md#scalarattributetypetype)
+- [ScalarAttributeTypeType](dynamoquery_types.md#scalarattributetypetype)
 
 ### DynamoTableIndex().as_attribute_definitions
 
-[[find in source code]](https://github.com/altitudenetworks/dynamoquery/blob/master/dynamo_query/dynamo_table_index.py#L151)
+[[find in source code]](https://github.com/altitudenetworks/dynamoquery/blob/master/dynamoquery/dynamo_table_index.py#L151)
 
 ```python
 def as_attribute_definitions() -> List[AttributeDefinitionTypeDef]:
-```
+````
 
 ### DynamoTableIndex().as_global_secondary_index
 
-[[find in source code]](https://github.com/altitudenetworks/dynamoquery/blob/master/dynamo_query/dynamo_table_index.py#L88)
+[[find in source code]](https://github.com/altitudenetworks/dynamoquery/blob/master/dynamoquery/dynamo_table_index.py#L88)
 
 ```python
 def as_global_secondary_index() -> GlobalSecondaryIndexTypeDef:
@@ -89,11 +89,11 @@ A dict with index data.
 
 #### See also
 
-- [GlobalSecondaryIndexTypeDef](dynamo_query_types.md#globalsecondaryindextypedef)
+- [GlobalSecondaryIndexTypeDef](dynamoquery_types.md#globalsecondaryindextypedef)
 
 ### DynamoTableIndex().as_key_schema
 
-[[find in source code]](https://github.com/altitudenetworks/dynamoquery/blob/master/dynamo_query/dynamo_table_index.py#L136)
+[[find in source code]](https://github.com/altitudenetworks/dynamoquery/blob/master/dynamoquery/dynamo_table_index.py#L136)
 
 ```python
 def as_key_schema() -> List[KeySchemaElementTypeDef]:
@@ -107,7 +107,7 @@ A dict with index data.
 
 ### DynamoTableIndex().as_local_secondary_index
 
-[[find in source code]](https://github.com/altitudenetworks/dynamoquery/blob/master/dynamo_query/dynamo_table_index.py#L115)
+[[find in source code]](https://github.com/altitudenetworks/dynamoquery/blob/master/dynamoquery/dynamo_table_index.py#L115)
 
 ```python
 def as_local_secondary_index() -> LocalSecondaryIndexTypeDef:
@@ -121,11 +121,11 @@ A dict with index data.
 
 #### See also
 
-- [LocalSecondaryIndexTypeDef](dynamo_query_types.md#localsecondaryindextypedef)
+- [LocalSecondaryIndexTypeDef](dynamoquery_types.md#localsecondaryindextypedef)
 
 ### DynamoTableIndex().get_query_data
 
-[[find in source code]](https://github.com/altitudenetworks/dynamoquery/blob/master/dynamo_query/dynamo_table_index.py#L170)
+[[find in source code]](https://github.com/altitudenetworks/dynamoquery/blob/master/dynamoquery/dynamo_table_index.py#L170)
 
 ```python
 def get_query_data(
@@ -147,7 +147,7 @@ Query-ready data.
 
 ### DynamoTableIndex().name
 
-[[find in source code]](https://github.com/altitudenetworks/dynamoquery/blob/master/dynamo_query/dynamo_table_index.py#L69)
+[[find in source code]](https://github.com/altitudenetworks/dynamoquery/blob/master/dynamoquery/dynamo_table_index.py#L69)
 
 ```python
 @property

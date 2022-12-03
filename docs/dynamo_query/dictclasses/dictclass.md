@@ -1,18 +1,18 @@
 # DictClass
 
-> Auto-generated documentation for [dynamo_query.dictclasses.dictclass](https://github.com/altitudenetworks/dynamoquery/blob/master/dynamo_query/dictclasses/dictclass.py) module.
+> Auto-generated documentation for [dynamoquery.dictclasses.dictclass](https://github.com/altitudenetworks/dynamoquery/blob/master/dynamoquery/dictclasses/dictclass.py) module.
 
 - [dynamo-query](../../README.md#dynamoquery) / [Modules](../../MODULES.md#dynamo-query-modules) / [Dynamo Query](../index.md#dynamo-query) / [Dictclasses](index.md#dictclasses) / DictClass
-    - [DictClass](#dictclass)
-        - [DictClass().\_\_post\_init\_\_](#dictclass__post_init__)
-        - [DictClass.compute_key](#dictclasscompute_key)
-        - [DictClass().sanitize](#dictclasssanitize)
-        - [DictClass.sanitize_key](#dictclasssanitize_key)
-        - [DictClass().update](#dictclassupdate)
+  - [DictClass](#dictclass)
+    - [DictClass().\_\_post_init\_\_](#dictclass__post_init__)
+    - [DictClass.compute_key](#dictclasscompute_key)
+    - [DictClass().sanitize](#dictclasssanitize)
+    - [DictClass.sanitize_key](#dictclasssanitize_key)
+    - [DictClass().update](#dictclassupdate)
 
 ## DictClass
 
-[[find in source code]](https://github.com/altitudenetworks/dynamoquery/blob/master/dynamo_query/dictclasses/dictclass.py#L13)
+[[find in source code]](https://github.com/altitudenetworks/dynamoquery/blob/master/dynamoquery/dictclasses/dictclass.py#L13)
 
 ```python
 class DictClass(dict):
@@ -54,9 +54,9 @@ record.update({"age": 30})
 dict(record) # {"name": "Jon", "company": "Amazon", "age": 30, "min_age": 18}
 ```
 
-### DictClass().\_\_post\_init\_\_
+### DictClass().\_\_post_init\_\_
 
-[[find in source code]](https://github.com/altitudenetworks/dynamoquery/blob/master/dynamo_query/dictclasses/dictclass.py#L90)
+[[find in source code]](https://github.com/altitudenetworks/dynamoquery/blob/master/dynamoquery/dictclasses/dictclass.py#L90)
 
 ```python
 def __post_init__() -> None:
@@ -66,7 +66,7 @@ Override this method for post-init operations
 
 ### DictClass.compute_key
 
-[[find in source code]](https://github.com/altitudenetworks/dynamoquery/blob/master/dynamo_query/dictclasses/dictclass.py#L131)
+[[find in source code]](https://github.com/altitudenetworks/dynamoquery/blob/master/dynamoquery/dictclasses/dictclass.py#L131)
 
 ```python
 @staticmethod
@@ -79,7 +79,7 @@ def compute_key(key: str) -> KeyComputer:
 
 ### DictClass().sanitize
 
-[[find in source code]](https://github.com/altitudenetworks/dynamoquery/blob/master/dynamo_query/dictclasses/dictclass.py#L351)
+[[find in source code]](https://github.com/altitudenetworks/dynamoquery/blob/master/dynamoquery/dictclasses/dictclass.py#L351)
 
 ```python
 def sanitize(**kwargs: Any) -> None:
@@ -89,11 +89,11 @@ Sanitize all set fields.
 
 #### Arguments
 
-- `kwargs` - Arguments for sanitize_key_{key}
+- `kwargs` - Arguments for sanitize*key*{key}
 
 ### DictClass.sanitize_key
 
-[[find in source code]](https://github.com/altitudenetworks/dynamoquery/blob/master/dynamo_query/dictclasses/dictclass.py#L127)
+[[find in source code]](https://github.com/altitudenetworks/dynamoquery/blob/master/dynamoquery/dictclasses/dictclass.py#L127)
 
 ```python
 @staticmethod
@@ -106,7 +106,7 @@ def sanitize_key(key: str) -> KeySanitizer:
 
 ### DictClass().update
 
-[[find in source code]](https://github.com/altitudenetworks/dynamoquery/blob/master/dynamo_query/dictclasses/dictclass.py#L362)
+[[find in source code]](https://github.com/altitudenetworks/dynamoquery/blob/master/dynamoquery/dictclasses/dictclass.py#L362)
 
 ```python
 def update(*args: Dict[(str, Any)], **kwargs: ignore) -> None:

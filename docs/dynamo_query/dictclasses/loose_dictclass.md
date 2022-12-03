@@ -1,14 +1,14 @@
 # LooseDictClass
 
-> Auto-generated documentation for [dynamo_query.dictclasses.loose_dictclass](https://github.com/altitudenetworks/dynamoquery/blob/master/dynamo_query/dictclasses/loose_dictclass.py) module.
+> Auto-generated documentation for [dynamoquery.dictclasses.loose_dictclass](https://github.com/altitudenetworks/dynamoquery/blob/master/dynamoquery/dictclasses/loose_dictclass.py) module.
 
 - [dynamo-query](../../README.md#dynamoquery) / [Modules](../../MODULES.md#dynamo-query-modules) / [Dynamo Query](../index.md#dynamo-query) / [Dictclasses](index.md#dictclasses) / LooseDictClass
-    - [LooseDictClass](#loosedictclass)
-        - [LooseDictClass().update](#loosedictclassupdate)
+  - [LooseDictClass](#loosedictclass)
+    - [LooseDictClass().update](#loosedictclassupdate)
 
 ## LooseDictClass
 
-[[find in source code]](https://github.com/altitudenetworks/dynamoquery/blob/master/dynamo_query/dictclasses/loose_dictclass.py#L8)
+[[find in source code]](https://github.com/altitudenetworks/dynamoquery/blob/master/dynamoquery/dictclasses/loose_dictclass.py#L8)
 
 ```python
 class LooseDictClass(DynamoDictClass):
@@ -22,7 +22,7 @@ DictClass that allows any keys.
 
 ### LooseDictClass().update
 
-[[find in source code]](https://github.com/altitudenetworks/dynamoquery/blob/master/dynamo_query/dictclasses/loose_dictclass.py#L32)
+[[find in source code]](https://github.com/altitudenetworks/dynamoquery/blob/master/dynamoquery/dictclasses/loose_dictclass.py#L32)
 
 ```python
 def update(*args: Dict[(str, Any)], **kwargs: ignore) -> None:

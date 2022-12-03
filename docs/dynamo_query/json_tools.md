@@ -1,18 +1,18 @@
 # JSON Tools
 
-> Auto-generated documentation for [dynamo_query.json_tools](https://github.com/altitudenetworks/dynamoquery/blob/master/dynamo_query/json_tools.py) module.
+> Auto-generated documentation for [dynamoquery.json_tools](https://github.com/altitudenetworks/dynamoquery/blob/master/dynamoquery/json_tools.py) module.
 
 Safe JSON SerDe.
 
 - [dynamo-query](../README.md#dynamoquery) / [Modules](../MODULES.md#dynamo-query-modules) / [Dynamo Query](index.md#dynamo-query) / JSON Tools
-    - [SafeJSONEncoder](#safejsonencoder)
-        - [SafeJSONEncoder().default](#safejsonencoderdefault)
-    - [dumps](#dumps)
-    - [loads](#loads)
+  - [SafeJSONEncoder](#safejsonencoder)
+    - [SafeJSONEncoder().default](#safejsonencoderdefault)
+  - [dumps](#dumps)
+  - [loads](#loads)
 
 ## SafeJSONEncoder
 
-[[find in source code]](https://github.com/altitudenetworks/dynamoquery/blob/master/dynamo_query/json_tools.py#L12)
+[[find in source code]](https://github.com/altitudenetworks/dynamoquery/blob/master/dynamoquery/json_tools.py#L12)
 
 ```python
 class SafeJSONEncoder(json.JSONEncoder):
@@ -42,7 +42,7 @@ json.dumps(data, cls=SafeJSONEncoder)
 
 ### SafeJSONEncoder().default
 
-[[find in source code]](https://github.com/altitudenetworks/dynamoquery/blob/master/dynamo_query/json_tools.py#L40)
+[[find in source code]](https://github.com/altitudenetworks/dynamoquery/blob/master/dynamoquery/json_tools.py#L40)
 
 ```python
 def default(o: Any) -> Any:
@@ -61,7 +61,7 @@ Supports `decimal.Decimal` and `set`.
 
 ## dumps
 
-[[find in source code]](https://github.com/altitudenetworks/dynamoquery/blob/master/dynamo_query/json_tools.py#L72)
+[[find in source code]](https://github.com/altitudenetworks/dynamoquery/blob/master/dynamoquery/json_tools.py#L72)
 
 ```python
 def dumps(
@@ -92,7 +92,7 @@ A string with serialized JSON.
 
 ## loads
 
-[[find in source code]](https://github.com/altitudenetworks/dynamoquery/blob/master/dynamo_query/json_tools.py#L99)
+[[find in source code]](https://github.com/altitudenetworks/dynamoquery/blob/master/dynamoquery/json_tools.py#L99)
 
 ```python
 def loads(data: str, **kwargs: Any) -> Any:

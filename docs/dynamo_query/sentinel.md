@@ -1,15 +1,15 @@
 # Sentinel
 
-> Auto-generated documentation for [dynamo_query.sentinel](https://github.com/altitudenetworks/dynamoquery/blob/master/dynamo_query/sentinel.py) module.
+> Auto-generated documentation for [dynamoquery.sentinel](https://github.com/altitudenetworks/dynamoquery/blob/master/dynamoquery/sentinel.py) module.
 
 Sentinel value than can be used as a placeholder.
 
 - [dynamo-query](../README.md#dynamoquery) / [Modules](../MODULES.md#dynamo-query-modules) / [Dynamo Query](index.md#dynamo-query) / Sentinel
-    - [SentinelValue](#sentinelvalue)
+  - [SentinelValue](#sentinelvalue)
 
 ## SentinelValue
 
-[[find in source code]](https://github.com/altitudenetworks/dynamoquery/blob/master/dynamo_query/sentinel.py#L6)
+[[find in source code]](https://github.com/altitudenetworks/dynamoquery/blob/master/dynamoquery/sentinel.py#L6)
 
 ```python
 class SentinelValue():
