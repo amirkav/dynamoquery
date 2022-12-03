@@ -6,9 +6,9 @@ from typing import Optional
 import boto3
 from mypy_boto3_dynamodb.service_resource import DynamoDBServiceResource, Table
 
-from dynamo_query.dictclasses.dynamo_dictclass import DynamoDictClass
-from dynamo_query.dynamo_table import DynamoTable
-from dynamo_query.dynamo_table_index import DynamoTableIndex
+from dynamoquery.dictclasses.dynamo_dictclass import DynamoDictClass
+from dynamoquery.dynamo_table import DynamoTable
+from dynamoquery.dynamo_table_index import DynamoTableIndex
 
 
 class UserRecord(DynamoDictClass):

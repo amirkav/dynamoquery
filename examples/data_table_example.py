@@ -3,8 +3,8 @@ Usage examples for `DataTable` class.
 """
 from typing import Optional
 
-from dynamo_query.data_table import DataTable
-from dynamo_query.dictclasses.dynamo_dictclass import DynamoDictClass
+from dynamoquery.data_table import DataTable
+from dynamoquery.dictclasses.dynamo_dictclass import DynamoDictClass
 
 
 # define keys of a record structure

@@ -4,8 +4,8 @@ Usage examples for `DynamoQuery` class.
 
 import boto3
 
-from dynamo_query.dynamo_query_main import DynamoQuery
-from dynamo_query.expressions import ConditionExpression
+from dynamoquery.dynamoquery_main import DynamoQuery
+from dynamoquery.expressions import ConditionExpression
 
 
 def main() -> None:
