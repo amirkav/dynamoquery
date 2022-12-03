@@ -1,4 +1,4 @@
-from dynamo_query.sentinel import SentinelValue
+from dynamoquery.sentinel import SentinelValue
 
 
 class TestSentinelValue:

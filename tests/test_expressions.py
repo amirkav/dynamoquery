@@ -1,6 +1,6 @@
 import pytest
 
-from dynamo_query.expressions import (
+from dynamoquery.expressions import (
     ConditionExpression,
     ConditionExpressionGroup,
     Expression,

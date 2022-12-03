@@ -1,6 +1,6 @@
 import pytest
 
-from dynamo_query.dictclasses.loose_dictclass import LooseDictClass
+from dynamoquery.dictclasses.loose_dictclass import LooseDictClass
 
 
 class MyLooseDictClass(LooseDictClass):

@@ -3,11 +3,11 @@ from typing import Dict, Optional
 import boto3
 import pytest
 
-from dynamo_query.data_table import DataTable
-from dynamo_query.dictclasses.dynamo_dictclass import DynamoDictClass
-from dynamo_query.dynamo_table import DynamoTable
-from dynamo_query.dynamo_table_index import DynamoTableIndex
-from dynamo_query.expressions import ConditionExpression
+from dynamoquery.data_table import DataTable
+from dynamoquery.dictclasses.dynamo_dictclass import DynamoDictClass
+from dynamoquery.dynamo_table import DynamoTable
+from dynamoquery.dynamo_table_index import DynamoTableIndex
+from dynamoquery.expressions import ConditionExpression
 
 
 class UserRecord(DynamoDictClass):

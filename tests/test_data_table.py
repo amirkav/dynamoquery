@@ -4,9 +4,9 @@ from typing import Optional
 import pytest
 from typing_extensions import TypedDict
 
-from dynamo_query.data_table import DataTable, DataTableError, Filter
-from dynamo_query.dictclasses.dictclass import DictClass
-from dynamo_query.dictclasses.dynamo_dictclass import DynamoDictClass
+from dynamoquery.data_table import DataTable, DataTableError, Filter
+from dynamoquery.dictclasses.dictclass import DictClass
+from dynamoquery.dictclasses.dynamo_dictclass import DynamoDictClass
 
 
 class UserRecord(DynamoDictClass):

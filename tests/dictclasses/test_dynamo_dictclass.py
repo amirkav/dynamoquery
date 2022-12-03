@@ -3,7 +3,7 @@ from typing import Any, Dict, List, Optional, Set
 
 import pytest
 
-from dynamo_query.dictclasses.dynamo_dictclass import DynamoDictClass
+from dynamoquery.dictclasses.dynamo_dictclass import DynamoDictClass
 
 
 class MyMixin:

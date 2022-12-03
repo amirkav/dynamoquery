@@ -1,4 +1,4 @@
-from dynamo_query.dynamo_table_index import DynamoTableIndex
+from dynamoquery.dynamo_table_index import DynamoTableIndex
 
 
 class TestDynamoTableIndex:

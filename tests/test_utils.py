@@ -1,6 +1,6 @@
 import pytest
 
-from dynamo_query.utils import (
+from dynamoquery.utils import (
     ascii_string_generator,
     chunkify,
     get_format_keys,

@@ -3,10 +3,10 @@ from unittest.mock import MagicMock
 
 import pytest
 
-from dynamo_query.data_table import DataTable
-from dynamo_query.dynamo_table import DynamoTable, DynamoTableError
-from dynamo_query.dynamo_table_index import DynamoTableIndex
-from dynamo_query.expressions import ConditionExpression
+from dynamoquery.data_table import DataTable
+from dynamoquery.dynamo_table import DynamoTable, DynamoTableError
+from dynamoquery.dynamo_table_index import DynamoTableIndex
+from dynamoquery.expressions import ConditionExpression
 
 
 @pytest.fixture

@@ -1,7 +1,7 @@
 import datetime
 import decimal
 
-from dynamo_query.json_tools import dumps, loads
+from dynamoquery.json_tools import dumps, loads
 
 
 class TestJSONTools:

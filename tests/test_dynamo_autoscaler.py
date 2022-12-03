@@ -1,6 +1,6 @@
 from unittest.mock import MagicMock
 
-from dynamo_query.dynamo_autoscaler import DynamoAutoscaler
+from dynamoquery.dynamo_autoscaler import DynamoAutoscaler
 
 
 class TestDynamoAutoscaler:
